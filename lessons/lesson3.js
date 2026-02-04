@@ -65,3 +65,57 @@ console.log(place1);
 // Escape Sequence 
 let phrase = 'My name is Roger O\'Dell. \tHow are\n you doing today';
 console.log(phrase);
+
+// Instance Property
+// This type doesn't use () as part of its declaration
+// It does use the primitive to acces it.
+let example =  'Fusce rutrum pellentesque rhoncus ';
+console.log(example.length);
+
+/* Instance methods
+These methods are accessible from the primitive and
+return a whole new type rather than changing the 
+existing one. */
+
+// at() Returns a character at a specified index
+console.log(example.at(3)); // the output is c
+console.log(example.at(-4)); // the output is c
+
+// charAt returns a character at a specified index
+/* only goes one direction and doesn't accept 
+negative intergers*/
+console.log(example.charAt(6)); //out put is r
+
+// concat combines strings of 1 or more
+console.log(example.concat(' ','JavaScript'));
+console.log(example.concat(' Hello'));
+
+// includes determines if a searched value is in the statement
+/* Will return true or false called a boolean type 
+just like a test question*/
+
+console.log(example.includes('pell')); // output is true
+
+/* indexOf returns the index number of the
+ first occurence of a searched value. */
+ console.log(example.indexOf('p')); // output is 13
+
+ // slice returns a new string based on an index range
+ console.log(example.slice(2,5));
+ console.log(example.slice(10));
+
+ /* split divides a string into a list of substrings 
+ based on a pattern */
+ let exampleSplit =  'Fusce*rutrum*pellentesque*rhoncus*';
+ let word = exampleSplit.split('*');
+ console.log(word[3]);
+
+ // toLowerCase returns the string in lowercase letters
+ console.log(example.toLowerCase());
+
+ // toUpperCase returns the string to uppercase letters
+ console.log(example.toUpperCase());
+
+ // trim removes the empty space from the beginning
+ // and end of a string
+ console.log(example.trim());
