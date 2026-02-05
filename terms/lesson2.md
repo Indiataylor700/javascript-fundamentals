@@ -10,7 +10,7 @@
 
 ### Additional Folders
 - lessons folder: Will be used for all lessons beginning with Lesson 3.
-- ecercises folder: Will be used for practice exercises written similar to lab assignments.
+- exercises folder: Will be used for practice exercises written similar to lab assignments.
 - labs folder: Will be used for lab exercises. Each lab in their own file.
 
 ### Running Code
@@ -20,4 +20,4 @@
     -Keyboard shortcut Ctrl + alt + n
 - Can run the file from the Terminal using the following command
     -no main.js
-    -The terminal cursor needs to be in the smae folder as the file, for the command to work properly.
+    -The terminal cursor needs to be in the same folder as the file, for the command to work properly.
