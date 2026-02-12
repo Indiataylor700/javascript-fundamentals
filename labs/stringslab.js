@@ -16,5 +16,5 @@ console.log(empty1.trim());
 console.log(empty1.toLowerCase());
 
 // Task 2
-let poem1 = `Jack and Jill went up the hill to fetch a pail of water.\nJack fell down and broke his crown and Jill came\ tumbling after.`;
+let poem1 = `Jack and Jill went up the hill \nTo fetch a pail of water.\nJack fell down and broke his crown \nand Jill came tumbling after.`;
 console.log(poem1);
