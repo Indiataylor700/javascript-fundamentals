@@ -36,7 +36,7 @@ function doWhileExample() {
     let num = 0;
     do{
         console.log(num);
-        num++
+        num++;
     } while(num < 7)
 }
 
@@ -78,7 +78,7 @@ function exampleLabel() {
     let value2 = '';
     myLabel:
     for( let i = 0; i < 30; i++) {
-        if(i % 2 === 0) {
+        if(i % 2) {
             continue myLabel;
         }
         value2 += (`${i}, `);
@@ -86,7 +86,7 @@ function exampleLabel() {
     console.log(value2);
 }
 
-//exampleLabel();
+exampleLabel();
 
 function exampleLabelV2() {
     var sum = 0;
@@ -144,4 +144,4 @@ function exampleBreakContinue() {
     console.log('Loop Ends');
 }
 
-exampleBreakContinue();
+//exampleBreakContinue();
