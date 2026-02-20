@@ -1,11 +1,9 @@
 /*  Functions and Scopes Lab */
 // Task One:
-function oldPhrase(part1, part2) {
+const addTogether = function(part1, part2) {
     return part1 + part2;
 }
-let goal1 = 'You win some, you lose some';
-let goal2 = ' You live to fight another day.';
-//console.log(addTogether(goal1, goal2));
+//console.log(addTogether(60, 84));
 
 // Task Two:
 function newMath(digit3, digit4 = 15) {
@@ -14,7 +12,9 @@ function newMath(digit3, digit4 = 15) {
 //console.log(newMath(30));
 //console.log(newMath(30,40));
 
+let goal1 = 'You win some, you lose some, ';
+let goal2 = 'You live to fight another day.';
 // Task Three:
-var oldPhrase1 = (part3, part4) => goal1 + goal2;
+const oldPhrase1 = (part3, part4) => goal1 + goal2;
 
-//console.log(oldPhrase(goal1,goal2));
+//console.log(oldPhrase1(goal1,goal2));
