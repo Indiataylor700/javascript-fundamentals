@@ -9,23 +9,18 @@ function opLab() {
 //opLab();
 
 //Task Two
-function plusEqualsTask(param1, param2) {
+function plusMultiModEqualsTask(param1, param2) {
     param2 += param1;
     console.log(param2);
-}
-//plusEqualsTask(10,12);
 
-function multiplicationEqualsTask(param1, param2) {
     param2 *= param1;
-    console.log(param2);
-}
-//multiplicationEqualsTask(5,7);
+    console.log(param2)
 
-function modulusEqualsTask(param1,param2) {
     param2 %= param1;
     console.log(param2);
 }
-//modulusEqualsTask(8,10);
+plusMultiModEqualsTask(10,12);
+
 
 // Task Three
 function comparisonOperatorTask (param3, param4) {
